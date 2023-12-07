@@ -1,0 +1,26 @@
+{
+    "name": "testLSM6DSO_custom",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "LSM6DSO": "github:dangallichan/LSM6DSO#ddd31fbc780e3ae54fcba766203d5b5a02db7172"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.24",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
